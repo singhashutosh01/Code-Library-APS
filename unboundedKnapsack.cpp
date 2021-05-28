@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long 
 
-//0-1 knapsack Function Top Down Approach
+
 
 int knapsack(int *wt, int *val, int n, int w)
 {
