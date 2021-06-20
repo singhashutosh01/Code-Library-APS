@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-ll catalan(ll n)
+ll catalanFunc(ll n)
 {
 	ll catalan[n + 1];
 	catalan[0] = catalan[1] = 1;
@@ -17,7 +17,7 @@ int main()
 {
     ll n;
     cin>>n;
-    cout<<catalan(n)<<"\n";
+    cout<<catalanFunc(n)<<"\n";
 	return 0;
 }
 
